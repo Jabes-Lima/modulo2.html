@@ -1,0 +1,122 @@
+@charset "utf-8";
+ 
+@font-face{font-family: 'androide';
+src: url('exercicio11/fontes/idroid.otf') format('opentype');
+font-weight: normal} 
+
+*{margin: 0px;
+  padding: 0px;}
+
+body{
+    background-color: #c5ebd6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    background-color: #094e27;
+    color: aliceblue;
+    min-height: 150px;
+    padding-top: 40px;
+    
+}
+
+header > h1{
+    color: white;
+    font-family:'bebas Neve', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+
+}
+nav{
+    background-color: #063d1e;
+
+}
+nav>a:hover{
+    background-color: #c5ebd6;
+    color: #094e27;
+    transition-duration: 0.5s;
+    
+}
+nav>a{color: white;
+padding: 10px 10px 0px 0px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    min-width: 200px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    
+}
+main >h1{
+    color: #e1e4e2;
+    font-family: 'idroid';
+    src: url('exercicio11/fontes/idroid.otf');
+}
+main >h2{ 
+    font-family: 'idroid';
+    src: url('exercicio11/fontes/idroid.otf');
+
+}
+main img{
+    width: 100%;
+}
+.video{background-color: #075729;
+margin-bottom:0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 58%;
+position: relative;
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside>h3{
+    background-color: #075729;
+    color: rgb(255, 255, 255);
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+aside{background-color: #07f06c;
+padding: 10px;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 3px 3px 8px black;
+margin-top: 10px;}
+
+aside>p{
+    background-color: #07f06c;
+    margin-top: 10px;
+
+}
+
+
+aside>ul{list-style-position: inside;
+columns: 2;
+}
+.principal{margin-top: 16px;}
+
+footer{
+
+    background-color: #063d1e;
+
+color: white;
+text-align: center;}
+
